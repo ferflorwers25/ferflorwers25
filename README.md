@@ -5,7 +5,7 @@ Managua, Nicaragua · Spanish / English / German · Open to Data Analyst and BI 
 
 I turn messy operational data into information people can act on: cleaning and validation, analytical SQL, dimensional models and dashboards. I also automate data capture with AI so small teams stop typing records by hand.
 
-B.S. in Innovation & Development Engineering, **Tec de Monterrey** (Business Intelligence concentration).
+B.S. in Innovation & Development Engineering, **Tec de Monterrey**, with concentrations in Business Intelligence and in Prototyping & Advanced Manufacturing.
 
 ---
 
@@ -14,6 +14,7 @@ B.S. in Innovation & Development Engineering, **Tec de Monterrey** (Business Int
 | Project | What it shows | Stack |
 |---|---|---|
 | [Retail ETL & Data Quality Pipeline](https://github.com/ferflorwers25/retail-etl-pipeline) | 1.07M messy sales lines turned into a validated PostgreSQL star schema. Caught £377K of double-counted revenue, incremental loads that never duplicate, tests in CI. | Python, Pandas, Pandera, PostgreSQL, SQL, Docker, pytest, GitHub Actions |
+| [Auto Parts Inventory Agent](https://github.com/ferflorwers25/agente-repuestos) | AI agent that answers natural-language questions about a 5-branch parts inventory (19K stock movements) through an MCP server I built. Read-only access enforced in 5 independent layers and tested live against delete attempts. 36 tests in CI. | Python, MCP, PostgreSQL, Docker, Claude Code, pytest, GitHub Actions |
 | [Campus MTY Site Selection](https://github.com/ferflorwers25/campus-mty-site-selection) | Which student business is under-supplied near Tec de Monterrey: location quotients on INEGI's business directory plus 2020 Census demand. [Tableau dashboard](https://public.tableau.com/views/CampusMTYSiteSelection_/Dashboard1) | Python, GeoPandas, Folium, Tableau |
 
 ## Client work
@@ -22,7 +23,7 @@ B.S. in Innovation & Development Engineering, **Tec de Monterrey** (Business Int
 
 ## Toolkit
 
-SQL (PostgreSQL) · Python (Pandas, NumPy, GeoPandas) · Tableau · Power BI · Excel and Google Sheets · Google Apps Script · Gemini and OpenAI APIs · Docker · Git and GitHub Actions
+SQL (PostgreSQL) · Python (Pandas, NumPy, GeoPandas) · Tableau · Power BI · Excel and Google Sheets · Google Apps Script · Gemini and OpenAI APIs · MCP servers and Claude Code · Docker · Git and GitHub Actions
 
 ## Currently
 
